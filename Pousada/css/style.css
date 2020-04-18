@@ -1,0 +1,46 @@
+*{
+  margin = 0;
+  padding = 0;
+
+}
+
+h1{
+  font-family: 'Mansalva', cursive;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Mansalva', cursive;
+  text-align: center;
+}
+
+body{
+  text-align: justify;
+  color:#FFF;
+  background-color:#3F4143;
+  font-family: 'Chau Philomene One', sans-serif;
+  padding: 30px;
+}
+
+.menu{
+background-color: #7E8FA3;
+
+}
+
+.cinza{
+background-color: #5A5A5B;
+padding: 35px;
+
+
+}
+
+.localizacao{
+text-align: center;
+}
+#petfriendly{
+ text-align: left center;
+ position: inherit;
+ font-size: 10px;
+
+
+}
