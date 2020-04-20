@@ -1,6 +1,6 @@
 *{
-  margin = 0;
-  padding = 0;
+  margin: = 0;
+  padding: = 0;
 }
 
 body{
@@ -15,6 +15,7 @@ body{
   font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
   clear: both;
+  padding-top: 20px;
 
 }
 
@@ -72,5 +73,12 @@ clear: both;
   padding:7px;
   height:25px;
   clear: both;
+
+}
+
+.fotos{
+  background-color: #ffe6e6;
+  padding-left: 300px;
+  padding-right:  300px;
 
 }
