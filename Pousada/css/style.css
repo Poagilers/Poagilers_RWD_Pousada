@@ -1,46 +1,76 @@
 *{
   margin = 0;
   padding = 0;
-
-}
-
-h1{
-  font-family: 'Mansalva', cursive;
-  text-align: center;
-}
-
-h2{
-  font-family: 'Mansalva', cursive;
-  text-align: center;
 }
 
 body{
   text-align: justify;
-  color:#FFF;
-  background-color:#3F4143;
-  font-family: 'Chau Philomene One', sans-serif;
-  padding: 30px;
+  background-color: #ff9999;
+
+}
+
+.cabecalho{
+  height: 60px;
+  background-color: #F5FFFA;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  clear: both;
+
+}
+
+.principal{
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: justify;
+  background-color: #ffe6e6;
+  padding: 5px 35px 35px 35px;
+  font-size: 20px;
+  font-weight: bolder;
+
+
+
 }
 
 .menu{
-background-color: #7E8FA3;
+padding-top: 5px;
+padding-bottom: 655px;
+background-color: #ff5050;
+float: left;
 
 }
 
-.cinza{
-background-color: #5A5A5B;
-padding: 35px;
+.menu a{
+font-family: 'Roboto Condensed', sans-serif;
+color:white;
+display: table;
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 700;
+padding:8px;
+margin: 5px;
+border: 8px;
+
 
 
 }
+
+
 
 .localizacao{
+margin-top: 10px;
 text-align: center;
+clear: both;
 }
-#petfriendly{
- text-align: left center;
- position: inherit;
- font-size: 10px;
 
+
+.logo{
+  font-family: 'Arial', sans-serif;
+  color: #363636;
+  font-weight: 800;
+  font-size:15px;
+  text-align: center;
+  background-color: white;
+  padding:7px;
+  height:25px;
+  clear: both;
 
 }
