@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Josefin+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Josefin+Sans&family=Roboto:wght@300&display=swap');
 
 *{
   margin: 0;
@@ -6,20 +6,21 @@
 }
 
 .cabecalho{
-  width: 1245px;
+  width: 1247px;
   height: 70px;
   margin: auto;
   margin-top: 30px;
   padding-top: 25px;
   text-align: center;
   text-decoration: underline;
-  font-size: 2.2em;
+  font-size: 2.4em;
   font-family: 'Cinzel Decorative', cursive;
-  font-weight: bold;
-  background-image: url(../img/IMAGE/back1.jpg);
-  background-position: bottom center;
+  font-weight: bolder;
+  background-image: url(../img/IMAGE/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
-  border-width: 3px;
+  border-width: 4px;
   border-color: #000;
 }
 
@@ -32,18 +33,19 @@ body{
 
 .principal{
   width: 1250px;
-  background-color: #E8854Caa;
+  background-color: #ECB27Daa;
   margin: auto;
-  font-size: 1.3em;
+  font-size: 1.1em;
+  border: solid 2px;
+  margin-bottom: 10px;
 }
 
 .menu{
   height: 65px;
   padding-top: 2px;
-  background-color: #EDC68C;
+  background-color: #B7E6A5 /*#5D9258aa*/;
   text-align: center;
-  border-style: solid;
-  border-width: 3px;
+  border-bottom-style: solid;
 }
 
 .menu a{
@@ -52,11 +54,11 @@ body{
   font-size: 1.2em;
   display: inline-block;
   padding: 10px;
-  background-image: url(../img/IMAGE/back2.jpg);
+  background-image: url(../img/IMAGE/back.jpg);
   background-position: center;
   background-blend-mode: soft-light;
-  margin: 5px 30px;
-  border-style: solid;
+  margin: 5px 38px;
+  border-style: dashed;
   border-color: black;
   border-radius: 60px;
 }
@@ -65,33 +67,31 @@ body{
   text-indent: 15px;
   text-align: justify;
   padding-top: 11px;
-  margin-bottom: 8px;
   font-family: 'Roboto', sans-serif;
-  border-style: double;
-  border-width: 5px;
 }
 
-.acomodacoes h2{
-  font-family: 'Josefin Slab', serif;
-  text-decoration: underline;
+h2{
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  margin: 5px 7px;
-  padding-bottom: 3px;
+  margin: 10px 9px;
+  padding-top: 3px;
   background-image: url(../img/IMAGE/back2.jpg);
   background-position: center;
+  border: solid 2px;
   border-radius: 50px;
-  border-style: dashed;
 }
 
 .acomodacoes a{
   padding: 12px;
   margin: 5px;
-  color: #fff;
+  color: #133706;
+  font-weight: bold;
   font-size: 1.2em;
 }
 
-.imagens p{
-  padding: 10px;
+.textos p{
+  padding: 30px;
+  margin: 60px 10px;
   indent: 30px;
 }
 
@@ -103,7 +103,20 @@ body{
 
 .imagens img{
   padding: 5px;
-  margin: 10px 50px;
+  margin: 15px 50px;
   background-color: #fffa;
+  border-radius: 12px;
+  float: left;
+}
 
+.localizacao{
+  text-align: center;
+  clear: left;
+}
+
+.rodape{
+  text-align: center;
+  height: 30px;
+  margin: 30px 40px;
+  background-image: url(../img/IMAGE/back2.jpg);
 }
