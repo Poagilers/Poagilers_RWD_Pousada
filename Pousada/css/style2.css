@@ -89,6 +89,7 @@ h2{
   font-size: 1.2em;
 }
 
+
 p{
   text-indent: 15px;
   text-align: justify;
@@ -101,6 +102,14 @@ p{
   padding: 30px;
   margin: 60px 10px;
   indent: 30px;
+}
+
+.textoshome p{
+  padding: 20px;
+  margin: 30px 10px;
+  indent: 15px;
+  font-weight: bolder;
+
 }
 
 .imagens b{
@@ -117,12 +126,26 @@ p{
   float: left;
 }
 
+.imageminicial{
+text-align: center;
+border: solid 3px;
+margin-left: 250px;
+width:700px;
+height:307px;
+clear: left;
+
+}
+
 .localizacao{
   text-align: center;
   clear: left;
 }
 
 .rodape{
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
   text-align: center;
   height: 30px;
   margin: 30px 40px;
