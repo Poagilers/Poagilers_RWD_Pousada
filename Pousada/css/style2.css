@@ -73,7 +73,7 @@ body{
 h2{
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  margin: 10px 9px;
+  margin: 20px 9px;
   padding-top: 3px;
   background-image: url(../img/IMAGE/back2.jpg);
   background-position: center;
@@ -154,11 +154,18 @@ clear: left;
 
 .textoContato{
   padding-top: 70px;
+  indent: 15px;
+  font-weight: bolder;
 }
 
 .fotos{
 padding-top: 15px;
 padding-left: 300px;
+padding: 5px;
+margin: 15px 260px;
+background-color: #fffa;
+border-radius: 12px;
+float: left;
 }
 
 .img:hover{
