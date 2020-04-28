@@ -16,7 +16,7 @@
   font-size: 2.4em;
   font-family: 'Cinzel Decorative', cursive;
   font-weight: bolder;
-  background-image: url(../img/IMAGE/back.jpg);
+  background-image: url(../img/back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
@@ -25,7 +25,7 @@
 }
 
 body{
-  background-image: url(../img/IMAGE/back2.jpg);
+  background-image: url(../img/back2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -54,7 +54,7 @@ body{
   font-size: 1.2em;
   display: inline-block;
   padding: 10px;
-  background-image: url(../img/IMAGE/back.jpg);
+  background-image: url(../img/back.jpg);
   background-position: center;
   background-blend-mode: soft-light;
   margin: 5px 38px;
@@ -75,7 +75,7 @@ h2{
   text-align: center;
   margin: 20px 9px;
   padding-top: 3px;
-  background-image: url(../img/IMAGE/back2.jpg);
+  background-image: url(../img/back2.jpg);
   background-position: center;
   border: solid 2px;
   border-radius: 50px;
@@ -149,7 +149,7 @@ clear: left;
   text-align: center;
   height: 30px;
   margin: 30px 40px;
-  background-image: url(../img/IMAGE/back2.jpg);
+  background-image: url(../img/back2.jpg);
 }
 
 .textoContato{
@@ -265,7 +265,7 @@ float: left;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 25px 5px;
-  background-image: url(../img/IMAGE/back.jpg);
+  background-image: url(../img/back.jpg);
   background-size: 200%;
   border-color: #000;
   border-width: 2px;
@@ -319,7 +319,7 @@ h3{
   text-align: center;
   margin: 10px auto;
   padding: 5px;
-  background-image: url(../img/IMAGE/back2.jpg);
+  background-image: url(../img/back2.jpg);
   background-position: center;
   border: solid 2px;
   border-radius: 50px;
@@ -347,7 +347,7 @@ h3{
   float: left;
 }
 fieldset{
-  background-image: url(../img/IMAGE/back.jpg);
+  background-image: url(../img/back.jpg);
   background-position: center;
   background-size: 200%;
   background-color: #CDE8C0;
@@ -364,7 +364,7 @@ fieldset{
   font-family: 'Roboto', sans-serif;
 }
 .reserva input[type="datetime-local"]{
-  background-image: url(../img/IMAGE/back.jpg);
+  background-image: url(../img/back.jpg);
   background-position:center;
   font-family: 'Roboto', sans-serif;
 }
